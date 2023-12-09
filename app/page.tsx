@@ -8,8 +8,8 @@ import { GithubIcon } from "@/components/icons";
 
 export default function Home() {
 	return (
-		<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-			<div className="inline-block max-w-lg text-center justify-center">
+		<section className="flex flex-col items-center justify-center my-24 gap-4 py-8 md:py-10">
+			<div className="inline-block max-w-xl text-center justify-center">
 				<h1 className={title()}>Hello&nbsp;</h1>
 				<h1 className={title({ color: "violet" })}>World!&nbsp;</h1>
 				<br />
@@ -43,7 +43,7 @@ export default function Home() {
 			<div className="mt-8">
 				<Snippet hideSymbol hideCopyButton variant="flat">
 					<span>
-					If you want to learn more about my work, <Code color="primary">scroll down the page.</Code>
+					If you want to learn more about my work, <Code color="primary">scroll down the page.</Code> 👇
 					</span>
 				</Snippet>
 			</div>

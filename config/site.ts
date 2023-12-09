@@ -61,9 +61,8 @@ export const siteConfig = {
 	],
 	links: {
 		github: "https://github.com/ChaeMendoza",
-		twitter: "https://twitter.com/getnextui",
-		docs: "https://nextui.org",
+		twitter: "https://twitter.com/ChaeMendoza9",
+		docs: "https://www.linkedin.com/in/israel-mendoza-a939a61b1/",
 		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
 	},
 };
