@@ -79,8 +79,8 @@ export default function Home() {
 										<h1 className="text-xl font-bold">Israel Mendoza</h1>
 										<p className="text-gray-300">FullStack Web Developer</p>
 										<div className="mt-6 flex flex-wrap gap-4 justify-center">
-											<a href="#" className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">Contact</a>
-											<a href="#" className="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded">Resume</a>
+											<a href="#contact-me" className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded">Contact</a>
+											<a href="/about" className="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded">Resume</a>
 										</div>
 									</div>
 									<hr className="my-6 border-t border-gray-300" />
@@ -193,13 +193,13 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="mt-36">
+			<div id="contact-me" className="mt-36">
 				<div className="text-center">
 					<h3 className={title({ color: "yellow" })}>Contact Me</h3>
 				</div>
 				<div className=" shadow shadow-white isolate px-6 py-24 sm:py-32 lg:px-8">
 					<div
-						className="absolute inset-x-0 top-[60rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-10rem]"
+						className="absolute inset-x-0 top-[-60rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-10rem]"
 						aria-hidden="true"
 					>
 						<div
