@@ -9,7 +9,11 @@ module.exports = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        'transparent-50': 'rgba(0, 0, 220, 0.12)', // Ajusta el valor alpha según lo necesites
+      },
+    },
   },
   darkMode: "class",
   plugins: [nextui()],
